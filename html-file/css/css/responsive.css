@@ -1,0 +1,97 @@
+/************************************************
+    SOLUZIONE RESPONSIVE
+ ************************************************/
+
+/* HEADER */
+
+ @media screen and (max-width: 480px) {
+    
+    /* .site-header {
+        margin-top: 3rem;
+    } */
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem; 
+        }
+
+    .lesson {padding:0 100rem;}
+
+}
+
+
+/* LESSON SECTION */
+
+
+@media screen and (max-width: 480px) {
+
+.row {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .container {
+        width: 100%;
+        padding: 0;
+        margin:auto;
+    }
+
+    .lessons .col {
+        width: 100%;
+        padding: 0;
+    }
+
+    .card {
+        padding: 0;
+    }
+
+    .text {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-left:40px;
+    padding-right: 40px;
+}
+ 
+
+
+/* STEPS SECTION */
+
+.steps {
+    margin: 1rem 0;
+    padding-bottom: 0;
+    color: #232946;
+    background: #eebbc3;
+}
+
+.steps .col {
+    width: 100%;
+}
+
+.why-us .col-left {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.why-us h2 {
+padding: 0 100px;
+}
+
+.why-us .col-right {
+    width: 100%;
+    padding: 0 60px;
+}
+
+.why-us img{
+    padding-bottom: 40px;
+}
+
+body .why-us{
+
+    background: black;
+}
+
+}
