@@ -2,14 +2,14 @@
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* HEADER */
+
+           /* MOBILE RESPONSIVE */
+
+ /* HEADER */
 
  @media screen and (max-width: 480px) {
     
-    /* .site-header {
-        margin-top: 3rem;
-    } */
-
+   
     h1 {
         font-size: 2rem;
     }
@@ -37,7 +37,7 @@
     .container {
         width: 100%;
         padding: 0;
-        margin:auto;
+        margin: 0 auto;
     }
 
     .lessons .col {
@@ -56,8 +56,6 @@
     padding-right: 40px;
 }
  
-
-
 /* STEPS SECTION */
 
 .steps {
@@ -95,3 +93,41 @@ body .why-us{
 }
 
 }
+
+         /* TABLET RESPONSIVE */
+
+
+   @media screen and (max-width: 768px) {
+
+    .container {
+            width: 100%;
+            margin: 0 0;
+            padding: 0 0;
+            }
+
+    .row {   width: 100%;
+             display: flex;
+             /* justify-content:space-between ; */
+             /* gap: 1rem; */
+         }
+         
+    .lessons .col {width: 70%;
+    padding: 2rem;}
+
+    .lessons h2 {margin-bottom: 1.rem;}
+
+    .lessons .col img {
+            min-height: 100px;
+            margin-bottom: 1rem;
+        }
+    
+    .steps .col {
+            padding: 1.5rem;
+        
+        }
+
+
+   } 
+
+
+
